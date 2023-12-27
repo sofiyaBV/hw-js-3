@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #191919;
+}
+
+.js_div {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-left: 80px;
+  gap: 20px;
+}
+
+.p_text_informations {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  right: 0;
+  padding: 10px 20px;
+  max-height: 200%;
+  display: none;
+  background: #121212;
+  color: #a7a7a7;
+}
+
+.div_components {
+  background-color: #121212;
+  max-width: 400px;
+  height: 40vw;
+  width: 33.5vw;
+  border-radius: 10px;
+}
+
+.img {
+  max-height: 200px;
+  margin-left: 10px;
+  width: 33.5vw;
+  height: 22.4vw;
+  padding-top: 20px;
+}
+
+.div_name {
+  display: flex;
+  color: #a7a7a7;
+  min-height: 30px;
+  padding: 2.5vw 3vw 10px 50px;
+  gap: 5vw;
+  align-items: center;
+}
+
+.div_name img {
+  min-height: 30px;
+  cursor: pointer;
+  padding-top: 7px;
+  font-size: 1vw;
+  height: 2px;
+  content: url("../img/up-arrow-angle-u.png");
+}
+
+.p_name {
+  padding-right: 0;
+  margin-bottom: 0;
+  font-size: 2vw;
+  overflow: hidden;
+  text-transform: none;
+  width: 20vw;
+}
+
+.div_text {
+  display: flex;
+  padding: 1vw 3vw 10px 50px;
+  gap: 8vw;
+  align-items: center;
+}
+
+.p_gram {
+  margin-bottom: 0;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  padding: 4px 12px;
+  font-size: 20px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.div_col {
+  display: flex;
+}
+
+.div_col :nth-child(1),
+.div_col :nth-child(3) {
+  color: #a7a7a7;
+  padding: 10px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+}
+
+.div_col :nth-child(2) {
+  color: #a7a7a7;
+  padding: 10px 10px 5px;
+  font-size: 16px;
+}
+
+.div_price {
+  display: flex;
+  gap: 5.4vw;
+  margin-bottom: 20px;
+}
+
+.div_price p {
+  font-size: 25px;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 900;
+  padding: 0.8vw 3vw 10px 50px;
+}
+
+.div_price button {
+  border-radius: 7px;
+  background-color: #f7d300;
+  font: inherit;
+  vertical-align: baseline;
+  cursor: pointer;
+  margin: 1vw 0;
+  width: 5vw;
+}
+
+.div_price button img {
+  width: 1vw;
+  margin-top: 5px;
+}
+
+.div_name:hover {
+  color: #f7d300;
+}
+.div_name:active .p_text_informations {
+  /* color: #f7d300; */
+  display: contents;
+}
+
+.div_name:hover img {
+  content: url("../img/up-arrow-angle.png");
+}
